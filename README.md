@@ -7,7 +7,7 @@ Package license: Zlib
 
 Feedstock license: BSD 3-Clause
 
-Summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms with CasADI backend
+Summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms with CasADi backend
 
 
 
