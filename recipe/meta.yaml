@@ -6,9 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
+  url: https://github.com/pariterre/rbdl-casadi/archive/fcffaacca2248832d7e9033c852cb6ee13cefafb.zip
   sha256: e07ab94e25ca99fdfa77341f6ea5bda5480bac3493e7af03158144da71c6a6eb
-
 build:
   number: 0
   skip: True  # [win]
