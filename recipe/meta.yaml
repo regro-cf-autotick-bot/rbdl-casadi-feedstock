@@ -7,9 +7,9 @@ package:
 
 source:
   url: https://github.com/pariterre/rbdl-casadi/archive/fcffaacca2248832d7e9033c852cb6ee13cefafb.zip
-  sha256: e07ab94e25ca99fdfa77341f6ea5bda5480bac3493e7af03158144da71c6a6eb
+  sha256: ddee7591a2525fd34ab4efd63ed7b7cea30482a3a4e3158e24ef99f39fde6d4d
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
