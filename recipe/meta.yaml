@@ -9,11 +9,11 @@ source:
   url: https://github.com/pyomeca/rbdl-casadi/archive/{{ version }}.tar.gz
   sha256: c6d43435a7b04528b4d2fe3d2e52f8bc839b00b4fd4f60d10825d7de3bcb156a
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
-run_exports:
-  - {{ pin_subpackage('rbdl-casadi', max_pin='x.x') }}
-  
+  run_exports:
+    - {{ pin_subpackage('rbdl-casadi', max_pin='x.x') }}
+
 requirements:
   build:
     - {{ compiler('cxx') }}
@@ -23,7 +23,7 @@ requirements:
   host:
     - casadi
   run:
-    - casadi
+    - {{ pin_compatible('casadi') }}
 
 test:
   commands:
@@ -34,7 +34,6 @@ about:
   home: https://bitbucket.org/rbdl/rbdl
   license: Zlib
   license_file: LICENSE
-  license_family: OTHER
   summary: RBDL is a highly efficient C++ library that contains some essential rigid body dynamics algorithms with CasADi backend
 
 extra:
