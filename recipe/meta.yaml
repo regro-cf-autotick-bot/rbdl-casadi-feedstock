@@ -23,7 +23,7 @@ requirements:
   host:
     - casadi
   run:
-    - casadi
+    - {{ pin_compatible('casadi') }}
 
 test:
   commands:
